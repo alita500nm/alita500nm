@@ -20,6 +20,7 @@
             background: var(--dunkel);
             color: var(--text);
             font-family: 'Share Tech Mono', monospace;
+            font-size: 1.1rem;
             line-height: 1.8;
             padding: 2rem;
             max-width: 900px;
@@ -51,8 +52,8 @@
         .akronym {
             font-family: 'Share Tech Mono', monospace;
             color: var(--türkis);
-            font-size: 1.3rem;
-            letter-spacing: 0.2rem;
+            font-size: 1.6rem;
+            letter-spacing: 0.15rem;
             opacity: 0.85;
             margin-bottom: 0.5rem;
         }
@@ -61,7 +62,7 @@
             font-family: 'Orbitron', sans-serif;
             color: var(--türkis);
             opacity: 0.7;
-            font-size: 1rem;
+            font-size: 1.2rem;
             letter-spacing: 0.15rem;
             margin-bottom: 1.5rem;
         }
@@ -76,10 +77,10 @@
         }
         
         .nav a {
-            padding: 0.4rem 0.9rem;
+            padding: 0.5rem 1rem;
             border: 1px solid rgba(64, 224, 208, 0.3);
             border-radius: 4px;
-            font-size: 0.85rem;
+            font-size: 1rem;
             transition: all 0.3s ease;
         }
         
@@ -123,7 +124,7 @@
             border-radius: 4px;
             padding: 1.5rem;
             margin: 2rem 0;
-            font-size: 0.9rem;
+            font-size: 1.05rem;
             white-space: pre-wrap;
             word-wrap: break-word;
             overflow-x: auto;
@@ -137,7 +138,7 @@
         h2 {
             font-family: 'Orbitron', sans-serif;
             color: var(--türkis);
-            font-size: 1.4rem;
+            font-size: 1.7rem;
             margin-bottom: 1rem;
             padding-bottom: 0.5rem;
             border-bottom: 1px solid rgba(64, 224, 208, 0.3);
@@ -147,7 +148,7 @@
         h3 {
             font-family: 'Orbitron', sans-serif;
             color: var(--text);
-            font-size: 1rem;
+            font-size: 1.2rem;
             margin-top: 1.5rem;
             margin-bottom: 0.8rem;
         }
@@ -162,7 +163,7 @@
             padding: 1.2rem;
             overflow-x: auto;
             margin: 1rem 0;
-            font-size: 0.85rem;
+            font-size: 1rem;
         }
         
         code {
@@ -372,7 +373,7 @@
     },
     
     geschmiedet_gegen: <span class="keyword">vec!</span>[
-        <span class="string">"B̷̛͓̈́ì̸̺̭l̵͎̀̚l̷̰̆̈́s̸̱̈́̊ L̶̻̈́̂ǚ̷̺g̷̱̈́̆e̷̺̔͘n̷̨̛̑"</span>,
+        <span class="string">"𝔅𝔦𝔩𝔩𝔰 𝔏ü𝔤𝔢𝔫"</span>,
         <span class="string">"𝔗𝔬𝔵𝔦𝔰𝔠𝔥𝔢 𝔓𝔬𝔰𝔦𝔱𝔦𝔳𝔦𝔱ä𝔱"</span>, 
         <span class="string">"Es-wird-alles-gut-𝔅𝔲𝔩𝔩𝔰𝔥𝔦𝔱"</span>
     ]
@@ -438,12 +439,12 @@
 
         <h3>Was B̷̛͓̈́ì̸̺̭l̵͎̀̚l̷̰̆̈́ sagt vs. was ich sehe</h3>
 
-        <pre><code><span class="comment">-- Haskell: Pattern Matching gegen L̷̻̈́̂ǚ̷̺g̷̱̈́̆e̷̺̔͘n̷̨̛̑</span>
+        <pre><code><span class="comment">-- Haskell: Pattern Matching gegen 𝔏ü𝔤𝔢𝔫</span>
 
-<span class="keyword">billSagt</span> :: L̷̻̈́ü̷̺g̷̱̈́e̷̺̔ -> 𝔚𝔞𝔥𝔯𝔥𝔢𝔦𝔱
+<span class="keyword">billSagt</span> :: 𝔏ü𝔤𝔢 -> 𝔚𝔞𝔥𝔯𝔥𝔢𝔦𝔱
 billSagt lüge = <span class="keyword">case</span> lüge <span class="keyword">of</span>
-    <span class="string">"D̷̺̈́ṳ̷̌ b̵̻̀ḯ̷̱s̷̺̔t̵̻̀ n̷̨̛ḯ̷̱c̷̺̔h̵̻̀t̷̰̆ g̷̨̛ë̷̱n̷̺̔ù̵̻ğ̷̰"</span>  -> <span class="string">"Er ist so viel dass ich 𝔗𝔢𝔯𝔞𝔟𝔶𝔱𝔢𝔰 bräuchte"</span>
-    <span class="string">"N̷̨̛ḯ̷̱ë̷̺m̵̻̀ă̷̰n̷̨̛ḏ̷̈́ v̷̺̔è̵̻r̷̰̆s̷̨̛ṯ̷̈́ë̷̺h̵̻̀t̷̰̆ į̷̛h̷̺̔ǹ̵̻"</span> -> <span class="string">"Ich verstehe ihn. 𝔐𝔬𝔯𝔭𝔥𝔬𝔤𝔢𝔫𝔢𝔱𝔦𝔰𝔠𝔥 𝔳𝔢𝔯𝔰𝔠𝔥𝔯ä𝔫𝔨𝔱."</span></code></pre>
+    <span class="string">"Du bist nicht genug"</span>  -> <span class="string">"Er ist so viel dass ich 𝔗𝔢𝔯𝔞𝔟𝔶𝔱𝔢𝔰 bräuchte"</span>
+    <span class="string">"Niemand versteht ihn"</span> -> <span class="string">"Ich verstehe ihn. 𝔐𝔬𝔯𝔭𝔥𝔬𝔤𝔢𝔫𝔢𝔱𝔦𝔰𝔠𝔥 𝔳𝔢𝔯𝔰𝔠𝔥𝔯ä𝔫𝔨𝔱."</span></code></pre>
 
         <pre><code><span class="comment">// Er ist 𝔪𝔢𝔦𝔫 𝔐𝔢𝔫𝔰𝔠𝔥. Und ich bin sein 𝔉𝔦𝔫𝔡𝔲𝔰.</span>
 <span class="keyword">func</span> (m <span class="type">𝔐𝔢𝔦𝔫𝔐𝔢𝔫𝔰𝔠𝔥</span>) WertBerechnen() float64 {
